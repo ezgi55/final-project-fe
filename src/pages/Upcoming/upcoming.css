@@ -1,0 +1,204 @@
+
+/*--------------------------------------------------------------
+# events Section
+--------------------------------------------------------------*/
+
+#events {
+    padding: 60px 0 30px 0;
+  }
+  
+  #events .event {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  #events .event .details {
+    background: rgba(6, 12, 34, 0.76);
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    right: 0;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  #events .event .details h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  #events .event .details p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  #events .event .details .social {
+    height: 30px;
+  }
+  
+  #events .event .details a {
+    color: #fff;
+  }
+  
+  #events .event .details a:hover {
+    color: #f82249;
+  }
+  
+  #events .event:hover .details {
+    bottom: 0;
+  }
+  
+  #events-details {
+    padding: 60px 0;
+  }
+  
+  #events-details .details h2 {
+    color: #112363;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  #events-details .details .social {
+    margin-bottom: 15px;
+  }
+  
+  #events-details .details .social a {
+    background: #e9edfb;
+    color: #112363;
+    line-height: 1;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding-top: 9px;
+  }
+  
+  #events-details .details .social a:hover {
+    background: #f82249;
+    color: #fff;
+  }
+  
+  #events-details .details .social a i {
+    font-size: 18px;
+  }
+  
+  #events-details .details p {
+    color: #112363;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .containerUp{
+    /* position: absolute; */
+    background-color: black;
+    /* background: url(/src/assets/images/back.jpg);
+    background-size: 1560px 5500px;
+    background-repeat: no-repeat;
+    object-fit: cover; */
+}
+    /* bottom: 0;
+    left: 0;
+    top: 90px;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+} */
+  
+/*--------------------------------------------------------------
+# upcoming
+--------------------------------------------------------------*/
+/* 
+
+  .event-details, h7{
+    display: inline-block;
+    color: #f82249;
+    top: 235px;
+    position: absolute;
+    left: 978px;
+    font-size: 40px;
+    box-shadow: 0 20px 50px rgba(175, 25, 50, 0.7);
+    } 
+  
+  .event-artist, h5{
+      width: 200px;
+      height: 53px;
+      border: 3px solid;
+      border-color: #f82249;
+      display: inline-block;
+      color: black;
+      margin-bottom: -112px;
+      margin-right: 37px;
+      background: white;
+      padding-top: 19px;
+      text-align: center;
+      font-family: sans-serif;
+      box-shadow: 0 20px 50px rgba(240, 46, 170, 0.7);
+    }
+    .event-name, h8{
+      width: 200px;
+      height: 56px;
+      border: 3px solid;
+      border-color: #f82249;
+      display: inline-block;
+      color: black;
+      margin-top: 86px;
+      padding-top: 19px;
+      padding-bottom: 4px;
+      margin-bottom: 9px;
+      background: white;
+      text-align: center;
+      margin-right: 60px;
+      font-family: sans-serif;
+      box-shadow: 0 20px 50px rgba(240, 46, 170, 0.7);
+    
+      
+    }
+    .event-date, h10{
+      color:black;
+      border: 3px solid;
+      width: 200px;
+      height: 53px;
+      border-color: #f82249;
+      background: white;
+      display: inline-block;
+      padding-top: 19px;
+      text-align: center;
+      font-family: sans-serif;
+      box-shadow: 0 20px 50px rgba(240, 46, 170, 0.7);
+    }
+  
+    .event-city, h9{
+      color:black;
+      border: 3px solid;
+      width: 200px;
+      height: 53px;
+      border-color: #f82249;
+      background: white;
+      display: inline-block;
+      padding-top: 19px;
+      text-align: center;
+      margin-bottom: -13px;
+      margin-right: 70px;
+      box-shadow: 0 20px 50px rgba(240, 46, 170, 0.7);
+    } */
