@@ -8,5 +8,9 @@ const events = {
     getEvents: () => `/events`,
   };
   
+  const venues = {
+    getVenues: () => `/venues`,
+  };
+  
   
   export { events };

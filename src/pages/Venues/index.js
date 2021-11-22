@@ -12,9 +12,9 @@ const Venues = () => {
         "Content-Type": "application/json"
       }
     });
-    const data = await response.json();
+    try {const data = await response.json();
     setvenues(data.venues);
-  };
+  } catch (err){console.log(err)}}
   React.useEffect(() => {
     getVenue();
   }, []);
